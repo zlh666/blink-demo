@@ -1,0 +1,5 @@
+<view class="container tag-class" bind:tap="onTaping">
+    <text>{{content}}</text>
+    <!-- 插槽 -->
+    <slot class="after"></slot>
+</view>

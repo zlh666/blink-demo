@@ -1,0 +1,22 @@
+/* components/like/index.wxss */
+.like image{
+  width:32rpx;
+  height: 28rpx;
+}
+
+.like text{
+  line-height: 24rpx;
+  font-size: 24rpx;
+  color:#bbbbbb;
+  position: relative;
+  bottom: 10rpx;
+  left: 6rpx;
+}
+
+/* 弹性容器 */
+.like{
+  display: inline-flex;/*行级自适应宽度*/
+  flex-direction: row;
+  padding:10rpx;
+}
+

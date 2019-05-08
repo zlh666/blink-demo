@@ -1,0 +1,6 @@
+<view class="container">
+  <image class='icon' src="{{latest?disLeftSrc:leftSrc}}" bind:tap="onNext"/><!--往左获取最新-->
+  <text class="text">{{title}}</text>
+  <image class="icon" src="{{previous?disRightSrc:rightSrc}}" bind:tap="onPrevious" />
+
+</view>
