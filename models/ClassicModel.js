@@ -60,6 +60,13 @@ class ClassicModel extends Http {
     return "classic-"+index
   }
 
+  getMyFavor(success) {
+    const params = {
+      url: '/classic/favor',
+      success: success
+    }
+    this.request(params)
+  }
 
 }
 
